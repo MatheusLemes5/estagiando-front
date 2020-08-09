@@ -1,0 +1,126 @@
+.body-home {
+    background-image: url(../img/background.jpeg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1500px) {
+    .body-home {
+        background-image: url(../img/background1500.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .body-home {
+        background-image: url(../img/background1000.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .body-home {
+        background-image: url(../img/background800.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body-home {
+        background-image: url(../img/background600.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .body-home {
+        background-image: url(../img/background320.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.body-register {
+    padding-top: 70px;
+}
+
+div.carousel-caption {
+    font-size: 40px;
+}
+
+#image_carousel {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    color: #ef8200;
+}
+
+.btn-rounded {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.image-logo {
+    padding-top: 100px;
+    position: relative;
+    widows: 650px;
+    height: 350px;
+}
+
+.register {
+    padding-top: 30px;
+    padding-left: 100px;
+    position: relative;
+    color: white;
+}
+
+.button-register {
+    border-radius: 30px;
+    width: 200px;
+}
+
+.navbar-footer {
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.subtitle-image {
+    padding-left: 250px;
+}
+
+
+/*background-position-x: initial, initial;
+background-position-y: initial, initial;
+background-size: cover;
+background-repeat: initial, initial;
+background-attachment: fixed, fixed;
+background-origin: initial, initial;
+background-clip: initial, initial;
+background-color: initial;
+background-attachment: fixed, fixed;
+background-size: cover;
+animation: westanimationworld 3s infinite;*/
+
+
+/*# sourceMappingURL=style.css.map */
