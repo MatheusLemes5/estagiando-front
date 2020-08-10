@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-gradient-primary">
+
+            <img src="img/Unijob-2.png" class="navbar-brand" alt="logo" height="7%" width="7%">
+            <button type="button" class="navbar-toggler bg-gradient-secondary" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link active">Entrar</a>
+                    <a href="#" class="nav-item nav-link active">Precisa de ajuda?</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <div class="container-form">
+            <div class="form form-group">
+                <form action="/action_page.php" method=post oninput='secondpassword.setCustomValidity(secondpassword.value != primarypassword.value ? "Passwords do not match." : "")' class="was-validated">
+                    <div class="form-group">
+                        <h2>Cadastro Universitário</h2>
+                        <label for="uname">Nome completo:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+                        <div class="valid-feedback">Válido</div>
+                        <div class="invalid-feedback">*Campo obrigatório</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="uname">Email:</label>
+                        <input type="text" class="form-control" id="uname" name="" required>
+                        <div class="valid-feedback">Válido</div>
+                        <div class="invalid-feedback">*Campo obrigatório</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="" name="primarypassword" required>
+                        <div class="valid-feedback">Válido</div>
+                        <div class="invalid-feedback">*Campo obrigatório</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Confirme sua senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="" name="secondpassword" required>
+                        <div class="valid-feedback">Válido.</div>
+                        <div class="invalid-feedback">*As senhas estão diferentes</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" value="Create account">Submit</button>
+                </form>
+            </div>
+    </main>
+
+
+    <nav class="navbar fixed-bottom navbar-expand-sm  bg-dark">
+
+        <div class="navbar-footer">
+            <a>Direitos reservados a UNIJOB - 2020</a>
+        </div>
+
+
+    </nav>
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js "></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js "></script>
+</body>
+
+</html>
