@@ -155,12 +155,21 @@ h1 {
     border-radius: 30px;
 }
 
+label {
+    display: inline-block;
+    margin-bottom: 0rem;
+}
+
 .logo {
     margin-left: 3cm;
 }
 
 .text-register {
     font-stretch: extra-condensed;
+}
+
+.form-group {
+    margin-bottom: 0rem;
 }
 
 
